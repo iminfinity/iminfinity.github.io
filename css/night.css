@@ -1,0 +1,77 @@
+:root {
+  --bodyBackgroundColor: #101010;
+  --headerBackgroundColor: #514d5b;
+  --borderColor: #514d5b;
+}
+
+body {
+  color: white;
+  overflow: hidden;
+}
+@media (max-width: 568px) {
+  body {
+    overflow: auto;
+  }
+}
+
+header span {
+  color: #101010;
+}
+
+a {
+  color: white !important;
+}
+
+.body aside:last-child h2,
+.body aside:last-child h1 {
+  color: wheat;
+}
+
+.custom-button {
+  background: #514d5b;
+}
+.custom-button:hover {
+  background: #101010;
+  color: white;
+  border-color: white;
+}
+
+.header {
+  background: red;
+}
+
+.body aside:first-child .info > h2 {
+  color: wheat;
+}
+
+main .main-head .intro {
+  color: whitesmoke;
+  background: inherit;
+  transition: none;
+}
+main .main-head .intro span {
+  color: white;
+}
+main .main-head .intro div:last-child p {
+  background: black;
+  box-shadow: 4px 4px 5px #101010;
+}
+
+.hello {
+  background: #101010;
+  color: whitesmoke;
+  border-color: #6c63ff;
+}
+
+.hello .talk-arrow {
+  background: #101010;
+  border-color: #6c63ff;
+}
+#pointer {
+  display: block;
+}
+@media (max-width: 568px) {
+  #pointer {
+    display: none;
+  }
+}
