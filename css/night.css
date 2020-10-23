@@ -70,7 +70,7 @@ main .main-head .intro div:last-child p {
 #pointer {
   display: block;
 }
-@media (max-width: 568px) {
+@media (max-width: 968px) {
   #pointer {
     display: none;
   }
